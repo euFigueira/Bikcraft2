@@ -60,6 +60,10 @@
   }
 }
 
+.titulo {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
