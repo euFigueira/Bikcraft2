@@ -14,6 +14,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
 
 
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body>
@@ -44,7 +47,7 @@
     <main>
 
       <div class="bicicletas-bg">
-        <div class="bicicletas container">
+        <div class="bicicletas container" data-anime="200">
           <div class="bike-imagem cor-0">
             <img src="./img/bicicletas/nimbus.jpg" alt="Nimbus">
             <span>R$4999</span>
@@ -76,7 +79,7 @@
 
 
         <div class="bicicletas-bg">
-          <div class="bicicletas container">
+          <div class="bicicletas container" data-anime="400">
             <div class="bike-imagem cor-0">
               <img src="./img/bicicletas/magic.jpg" alt="Nimbus">
               <span>R$4999</span>
@@ -108,7 +111,7 @@
         </div>
 
 
-        <div class="bicicletas container">
+        <div class="bicicletas container" data-anime="600">
           <div class="bike-imagem cor-0">
             <img src="./img/bicicletas/nimbus.jpg" alt="Nimbus">
             <span>R$4999</span>
@@ -181,6 +184,8 @@
       </div>
     </footer>
 
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
